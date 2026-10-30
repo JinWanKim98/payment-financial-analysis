@@ -1,0 +1,902 @@
+{
+  "version": 1,
+  "scope": "Historical FY2021-2025; reviewed on 2026-10-29. No later quarterly amounts integrated.",
+  "revision_policy": "Each annual amount retains its specific source edition. The latest inspected comparative is used where stated. No claim of a fully restated series.",
+  "rows": [
+    {
+      "company": "visa",
+      "fiscal_year": 2021,
+      "metric_id": "payment_volume",
+      "value": 10401000000000,
+      "unit": "USD",
+      "period_start": "2020-10-01",
+      "period_end": "2021-09-30",
+      "scope": "Worldwide Visa credit and debit payments, excluding cash",
+      "basis": "reported_nominal_USD",
+      "source_scale": 1000000000,
+      "status": "verified",
+      "evidence": {
+        "pdf_path": "data/raw/industry_supplements/visa_2021_supplement.pdf",
+        "pdf_pages": [
+          3
+        ],
+        "sha256": "5162a2acf27c360fecbe0fb1e414f15b1d78a4aee938bbbdadfaa8c803194de6",
+        "url": "https://investor.visa.com/files/doc_financials/2021/q4/Visa-Inc.-Fourth-Quarter-and-Full-Year-2021-Operational-Performance-Data.pdf",
+        "tokens": [
+          10401
+        ]
+      },
+      "note": "Fiscal-year-end volume. The June-end Visa service-revenue driver is a different period. Published figures are rounded to USD billions."
+    },
+    {
+      "company": "visa",
+      "fiscal_year": 2021,
+      "metric_id": "network_transactions",
+      "value": 164734000000,
+      "unit": "count",
+      "period_start": "2020-10-01",
+      "period_end": "2021-09-30",
+      "scope": "Transactions processed on Visa networks, including payment and cash",
+      "basis": "reported",
+      "source_scale": 1000000,
+      "status": "verified",
+      "evidence": {
+        "pdf_path": "data/raw/issuer_reports/visa/FY2023_annual_report.pdf",
+        "pdf_pages": [
+          53
+        ],
+        "sha256": "bafc042200f2dc31cda1f9012f9351fe86a0c5cf622c7a85d14cc4bf24280dd9",
+        "url": "https://s29.q4cdn.com/385744025/files/doc_downloads/2023/Visa-Inc-Fiscal-2023-Annual-Report.pdf",
+        "tokens": [
+          164734
+        ]
+      },
+      "note": "Reported annual count, rounded to millions. Calculated count growth is not normalized for switching/carryover days or Russia. Visa FY2021 uses the FY2023 comparative (164,734m), versus 164,733m in FY2021."
+    },
+    {
+      "company": "visa",
+      "fiscal_year": 2022,
+      "metric_id": "payment_volume",
+      "value": 11614000000000,
+      "unit": "USD",
+      "period_start": "2021-10-01",
+      "period_end": "2022-09-30",
+      "scope": "Worldwide Visa credit and debit payments, excluding cash",
+      "basis": "reported_nominal_USD",
+      "source_scale": 1000000000,
+      "status": "verified",
+      "evidence": {
+        "pdf_path": "data/raw/industry_supplements/visa_2023_supplement.pdf",
+        "pdf_pages": [
+          3
+        ],
+        "sha256": "9338989ef8581fd39a32dd9448510d79ac54605484b0b863c4bff46accb7f77a",
+        "url": "https://s1.q4cdn.com/050606653/files/doc_financials/2023/q4/Q4FY23-Visa-Operational-Performance-Data.pdf",
+        "tokens": [
+          11614
+        ]
+      },
+      "note": "Fiscal-year-end volume. The June-end Visa service-revenue driver is a different period. Published figures are rounded to USD billions."
+    },
+    {
+      "company": "visa",
+      "fiscal_year": 2022,
+      "metric_id": "network_transactions",
+      "value": 192530000000,
+      "unit": "count",
+      "period_start": "2021-10-01",
+      "period_end": "2022-09-30",
+      "scope": "Transactions processed on Visa networks, including payment and cash",
+      "basis": "reported",
+      "source_scale": 1000000,
+      "status": "verified",
+      "evidence": {
+        "pdf_path": "data/raw/issuer_reports/visa/FY2023_annual_report.pdf",
+        "pdf_pages": [
+          53
+        ],
+        "sha256": "bafc042200f2dc31cda1f9012f9351fe86a0c5cf622c7a85d14cc4bf24280dd9",
+        "url": "https://s29.q4cdn.com/385744025/files/doc_downloads/2023/Visa-Inc-Fiscal-2023-Annual-Report.pdf",
+        "tokens": [
+          192530
+        ]
+      },
+      "note": "Reported annual count, rounded to millions. Calculated count growth is not normalized for switching/carryover days or Russia. Visa FY2021 uses the FY2023 comparative (164,734m), versus 164,733m in FY2021."
+    },
+    {
+      "company": "visa",
+      "fiscal_year": 2023,
+      "metric_id": "payment_volume",
+      "value": 12338000000000,
+      "unit": "USD",
+      "period_start": "2022-10-01",
+      "period_end": "2023-09-30",
+      "scope": "Worldwide Visa credit and debit payments, excluding cash",
+      "basis": "reported_nominal_USD",
+      "source_scale": 1000000000,
+      "status": "verified",
+      "evidence": {
+        "pdf_path": "data/raw/industry_supplements/visa_2023_supplement.pdf",
+        "pdf_pages": [
+          3
+        ],
+        "sha256": "9338989ef8581fd39a32dd9448510d79ac54605484b0b863c4bff46accb7f77a",
+        "url": "https://s1.q4cdn.com/050606653/files/doc_financials/2023/q4/Q4FY23-Visa-Operational-Performance-Data.pdf",
+        "tokens": [
+          12338
+        ]
+      },
+      "note": "Fiscal-year-end volume. The June-end Visa service-revenue driver is a different period. Published figures are rounded to USD billions."
+    },
+    {
+      "company": "visa",
+      "fiscal_year": 2023,
+      "metric_id": "network_transactions",
+      "value": 212579000000,
+      "unit": "count",
+      "period_start": "2022-10-01",
+      "period_end": "2023-09-30",
+      "scope": "Transactions processed on Visa networks, including payment and cash",
+      "basis": "reported",
+      "source_scale": 1000000,
+      "status": "verified",
+      "evidence": {
+        "pdf_path": "data/raw/issuer_reports/visa/FY2023_annual_report.pdf",
+        "pdf_pages": [
+          53
+        ],
+        "sha256": "bafc042200f2dc31cda1f9012f9351fe86a0c5cf622c7a85d14cc4bf24280dd9",
+        "url": "https://s29.q4cdn.com/385744025/files/doc_downloads/2023/Visa-Inc-Fiscal-2023-Annual-Report.pdf",
+        "tokens": [
+          212579
+        ]
+      },
+      "note": "Reported annual count, rounded to millions. Calculated count growth is not normalized for switching/carryover days or Russia. Visa FY2021 uses the FY2023 comparative (164,734m), versus 164,733m in FY2021."
+    },
+    {
+      "company": "visa",
+      "fiscal_year": 2024,
+      "metric_id": "payment_volume",
+      "value": 13193000000000,
+      "unit": "USD",
+      "period_start": "2023-10-01",
+      "period_end": "2024-09-30",
+      "scope": "Worldwide Visa credit and debit payments, excluding cash",
+      "basis": "reported_nominal_USD",
+      "source_scale": 1000000000,
+      "status": "verified",
+      "evidence": {
+        "pdf_path": "data/raw/industry_supplements/visa_2025_supplement.pdf",
+        "pdf_pages": [
+          3
+        ],
+        "sha256": "5d28c83fdc37d8a4fbb7e354984970880783c5779c0a95fa38a4c5b11a1b19e6",
+        "url": "https://s1.q4cdn.com/050606653/files/doc_financials/2025/q4/Q4FY25-Visa-Operational-Performance-Data.pdf",
+        "tokens": [
+          13193
+        ]
+      },
+      "note": "Fiscal-year-end volume. The June-end Visa service-revenue driver is a different period. Published figures are rounded to USD billions."
+    },
+    {
+      "company": "visa",
+      "fiscal_year": 2024,
+      "metric_id": "network_transactions",
+      "value": 233758000000,
+      "unit": "count",
+      "period_start": "2023-10-01",
+      "period_end": "2024-09-30",
+      "scope": "Transactions processed on Visa networks, including payment and cash",
+      "basis": "reported",
+      "source_scale": 1000000,
+      "status": "verified",
+      "evidence": {
+        "pdf_path": "data/raw/issuer_reports/visa/FY2025_annual_report.pdf",
+        "pdf_pages": [
+          60
+        ],
+        "sha256": "6111bd2f744c354164559f2dc292ff940dccde09dd2b7093ed6674b025189ab8",
+        "url": "https://s29.q4cdn.com/385744025/files/doc_downloads/2025/Visa-Fiscal-2025-Annual-Report.pdf",
+        "tokens": [
+          233758
+        ]
+      },
+      "note": "Reported annual count, rounded to millions. Calculated count growth is not normalized for switching/carryover days or Russia. Visa FY2021 uses the FY2023 comparative (164,734m), versus 164,733m in FY2021."
+    },
+    {
+      "company": "visa",
+      "fiscal_year": 2025,
+      "metric_id": "payment_volume",
+      "value": 14217000000000,
+      "unit": "USD",
+      "period_start": "2024-10-01",
+      "period_end": "2025-09-30",
+      "scope": "Worldwide Visa credit and debit payments, excluding cash",
+      "basis": "reported_nominal_USD",
+      "source_scale": 1000000000,
+      "status": "verified",
+      "evidence": {
+        "pdf_path": "data/raw/industry_supplements/visa_2025_supplement.pdf",
+        "pdf_pages": [
+          3
+        ],
+        "sha256": "5d28c83fdc37d8a4fbb7e354984970880783c5779c0a95fa38a4c5b11a1b19e6",
+        "url": "https://s1.q4cdn.com/050606653/files/doc_financials/2025/q4/Q4FY25-Visa-Operational-Performance-Data.pdf",
+        "tokens": [
+          14217
+        ]
+      },
+      "note": "Fiscal-year-end volume. The June-end Visa service-revenue driver is a different period. Published figures are rounded to USD billions."
+    },
+    {
+      "company": "visa",
+      "fiscal_year": 2025,
+      "metric_id": "network_transactions",
+      "value": 257545000000,
+      "unit": "count",
+      "period_start": "2024-10-01",
+      "period_end": "2025-09-30",
+      "scope": "Transactions processed on Visa networks, including payment and cash",
+      "basis": "reported",
+      "source_scale": 1000000,
+      "status": "verified",
+      "evidence": {
+        "pdf_path": "data/raw/issuer_reports/visa/FY2025_annual_report.pdf",
+        "pdf_pages": [
+          60
+        ],
+        "sha256": "6111bd2f744c354164559f2dc292ff940dccde09dd2b7093ed6674b025189ab8",
+        "url": "https://s29.q4cdn.com/385744025/files/doc_downloads/2025/Visa-Fiscal-2025-Annual-Report.pdf",
+        "tokens": [
+          257545
+        ]
+      },
+      "note": "Reported annual count, rounded to millions. Calculated count growth is not normalized for switching/carryover days or Russia. Visa FY2021 uses the FY2023 comparative (164,734m), versus 164,733m in FY2021."
+    },
+    {
+      "company": "mastercard",
+      "fiscal_year": 2021,
+      "metric_id": "payment_volume",
+      "value": 5959000000000,
+      "unit": "USD",
+      "period_start": "2021-01-01",
+      "period_end": "2021-12-31",
+      "scope": "Worldwide Mastercard credit, charge, debit and prepaid purchases, excluding cash, Maestro and Cirrus",
+      "basis": "reported_nominal_USD",
+      "source_scale": 1000000000,
+      "status": "verified",
+      "evidence": {
+        "pdf_path": "data/raw/industry_supplements/mastercard_2021_supplement.pdf",
+        "pdf_pages": [
+          2
+        ],
+        "sha256": "42303d911b189eb537bbcc0a81b1a7f8270b342a8a191f8b5641106a83e15e8f",
+        "url": "https://investor.mastercard.com/files/doc_financials/2021/q4/4Q21-Mastercard-Supplemental-Operational-Performance-Data.pdf",
+        "tokens": [
+          5959
+        ]
+      },
+      "note": "Fiscal-year-end volume. The June-end Visa service-revenue driver is a different period. Published figures are rounded to USD billions."
+    },
+    {
+      "company": "mastercard",
+      "fiscal_year": 2021,
+      "metric_id": "network_transactions",
+      "value": 112090000000,
+      "unit": "count",
+      "period_start": "2021-01-01",
+      "period_end": "2021-12-31",
+      "scope": "Transactions initiated and switched through Mastercard network",
+      "basis": "reported",
+      "source_scale": 1000000,
+      "status": "verified",
+      "evidence": {
+        "pdf_path": "data/raw/industry_supplements/mastercard_2021_supplement.pdf",
+        "pdf_pages": [
+          8
+        ],
+        "sha256": "42303d911b189eb537bbcc0a81b1a7f8270b342a8a191f8b5641106a83e15e8f",
+        "url": "https://investor.mastercard.com/files/doc_financials/2021/q4/4Q21-Mastercard-Supplemental-Operational-Performance-Data.pdf",
+        "tokens": [
+          112090
+        ]
+      },
+      "note": "Reported annual count, rounded to millions. Calculated count growth is not normalized for switching/carryover days or Russia. Visa FY2021 uses the FY2023 comparative (164,734m), versus 164,733m in FY2021."
+    },
+    {
+      "company": "mastercard",
+      "fiscal_year": 2022,
+      "metric_id": "payment_volume",
+      "value": 6571000000000,
+      "unit": "USD",
+      "period_start": "2022-01-01",
+      "period_end": "2022-12-31",
+      "scope": "Worldwide Mastercard credit, charge, debit and prepaid purchases, excluding cash, Maestro and Cirrus",
+      "basis": "reported_nominal_USD",
+      "source_scale": 1000000000,
+      "status": "verified",
+      "evidence": {
+        "pdf_path": "data/raw/industry_supplements/mastercard_2023_supplement.pdf",
+        "pdf_pages": [
+          2
+        ],
+        "sha256": "c5ab30073e433a561eb8a3558e8d0a36f440b1f8932314e362aeb25460b16f85",
+        "url": "https://s25.q4cdn.com/479285134/files/doc_financials/2023/q4/4Q23-Mastercard-Supplemental-Operational-Performance-Data.pdf",
+        "tokens": [
+          6571
+        ]
+      },
+      "note": "Fiscal-year-end volume. The June-end Visa service-revenue driver is a different period. Published figures are rounded to USD billions."
+    },
+    {
+      "company": "mastercard",
+      "fiscal_year": 2022,
+      "metric_id": "network_transactions",
+      "value": 125680000000,
+      "unit": "count",
+      "period_start": "2022-01-01",
+      "period_end": "2022-12-31",
+      "scope": "Transactions initiated and switched through Mastercard network",
+      "basis": "reported",
+      "source_scale": 1000000,
+      "status": "verified",
+      "evidence": {
+        "pdf_path": "data/raw/industry_supplements/mastercard_2023_supplement.pdf",
+        "pdf_pages": [
+          8
+        ],
+        "sha256": "c5ab30073e433a561eb8a3558e8d0a36f440b1f8932314e362aeb25460b16f85",
+        "url": "https://s25.q4cdn.com/479285134/files/doc_financials/2023/q4/4Q23-Mastercard-Supplemental-Operational-Performance-Data.pdf",
+        "tokens": [
+          125680
+        ]
+      },
+      "note": "Reported annual count, rounded to millions. Calculated count growth is not normalized for switching/carryover days or Russia. Visa FY2021 uses the FY2023 comparative (164,734m), versus 164,733m in FY2021."
+    },
+    {
+      "company": "mastercard",
+      "fiscal_year": 2023,
+      "metric_id": "payment_volume",
+      "value": 7345000000000,
+      "unit": "USD",
+      "period_start": "2023-01-01",
+      "period_end": "2023-12-31",
+      "scope": "Worldwide Mastercard credit, charge, debit and prepaid purchases, excluding cash, Maestro and Cirrus",
+      "basis": "reported_nominal_USD",
+      "source_scale": 1000000000,
+      "status": "verified",
+      "evidence": {
+        "pdf_path": "data/raw/industry_supplements/mastercard_2023_supplement.pdf",
+        "pdf_pages": [
+          2
+        ],
+        "sha256": "c5ab30073e433a561eb8a3558e8d0a36f440b1f8932314e362aeb25460b16f85",
+        "url": "https://s25.q4cdn.com/479285134/files/doc_financials/2023/q4/4Q23-Mastercard-Supplemental-Operational-Performance-Data.pdf",
+        "tokens": [
+          7345
+        ]
+      },
+      "note": "Fiscal-year-end volume. The June-end Visa service-revenue driver is a different period. Published figures are rounded to USD billions."
+    },
+    {
+      "company": "mastercard",
+      "fiscal_year": 2023,
+      "metric_id": "network_transactions",
+      "value": 143196000000,
+      "unit": "count",
+      "period_start": "2023-01-01",
+      "period_end": "2023-12-31",
+      "scope": "Transactions initiated and switched through Mastercard network",
+      "basis": "reported",
+      "source_scale": 1000000,
+      "status": "verified",
+      "evidence": {
+        "pdf_path": "data/raw/industry_supplements/mastercard_2023_supplement.pdf",
+        "pdf_pages": [
+          8
+        ],
+        "sha256": "c5ab30073e433a561eb8a3558e8d0a36f440b1f8932314e362aeb25460b16f85",
+        "url": "https://s25.q4cdn.com/479285134/files/doc_financials/2023/q4/4Q23-Mastercard-Supplemental-Operational-Performance-Data.pdf",
+        "tokens": [
+          143196
+        ]
+      },
+      "note": "Reported annual count, rounded to millions. Calculated count growth is not normalized for switching/carryover days or Russia. Visa FY2021 uses the FY2023 comparative (164,734m), versus 164,733m in FY2021."
+    },
+    {
+      "company": "mastercard",
+      "fiscal_year": 2024,
+      "metric_id": "payment_volume",
+      "value": 8003000000000,
+      "unit": "USD",
+      "period_start": "2024-01-01",
+      "period_end": "2024-12-31",
+      "scope": "Worldwide Mastercard credit, charge, debit and prepaid purchases, excluding cash, Maestro and Cirrus",
+      "basis": "reported_nominal_USD",
+      "source_scale": 1000000000,
+      "status": "verified",
+      "evidence": {
+        "pdf_path": "data/raw/industry_supplements/mastercard_2025_supplement.pdf",
+        "pdf_pages": [
+          2
+        ],
+        "sha256": "50fc883e1cbf7a398dfd7fbe03a853384ffe7da6de0a79a23d515a7c3006048b",
+        "url": "https://s25.q4cdn.com/479285134/files/doc_financials/2025/q4/4Q25-Mastercard-Supplemental-Operational-Performance-Data.pdf",
+        "tokens": [
+          8003
+        ]
+      },
+      "note": "Fiscal-year-end volume. The June-end Visa service-revenue driver is a different period. Published figures are rounded to USD billions."
+    },
+    {
+      "company": "mastercard",
+      "fiscal_year": 2024,
+      "metric_id": "network_transactions",
+      "value": 159424000000,
+      "unit": "count",
+      "period_start": "2024-01-01",
+      "period_end": "2024-12-31",
+      "scope": "Transactions initiated and switched through Mastercard network",
+      "basis": "reported",
+      "source_scale": 1000000,
+      "status": "verified",
+      "evidence": {
+        "pdf_path": "data/raw/industry_supplements/mastercard_2025_supplement.pdf",
+        "pdf_pages": [
+          8
+        ],
+        "sha256": "50fc883e1cbf7a398dfd7fbe03a853384ffe7da6de0a79a23d515a7c3006048b",
+        "url": "https://s25.q4cdn.com/479285134/files/doc_financials/2025/q4/4Q25-Mastercard-Supplemental-Operational-Performance-Data.pdf",
+        "tokens": [
+          159424
+        ]
+      },
+      "note": "Reported annual count, rounded to millions. Calculated count growth is not normalized for switching/carryover days or Russia. Visa FY2021 uses the FY2023 comparative (164,734m), versus 164,733m in FY2021."
+    },
+    {
+      "company": "mastercard",
+      "fiscal_year": 2025,
+      "metric_id": "payment_volume",
+      "value": 8799000000000,
+      "unit": "USD",
+      "period_start": "2025-01-01",
+      "period_end": "2025-12-31",
+      "scope": "Worldwide Mastercard credit, charge, debit and prepaid purchases, excluding cash, Maestro and Cirrus",
+      "basis": "reported_nominal_USD",
+      "source_scale": 1000000000,
+      "status": "verified",
+      "evidence": {
+        "pdf_path": "data/raw/industry_supplements/mastercard_2025_supplement.pdf",
+        "pdf_pages": [
+          2
+        ],
+        "sha256": "50fc883e1cbf7a398dfd7fbe03a853384ffe7da6de0a79a23d515a7c3006048b",
+        "url": "https://s25.q4cdn.com/479285134/files/doc_financials/2025/q4/4Q25-Mastercard-Supplemental-Operational-Performance-Data.pdf",
+        "tokens": [
+          8799
+        ]
+      },
+      "note": "Fiscal-year-end volume. The June-end Visa service-revenue driver is a different period. Published figures are rounded to USD billions."
+    },
+    {
+      "company": "mastercard",
+      "fiscal_year": 2025,
+      "metric_id": "network_transactions",
+      "value": 175464000000,
+      "unit": "count",
+      "period_start": "2025-01-01",
+      "period_end": "2025-12-31",
+      "scope": "Transactions initiated and switched through Mastercard network",
+      "basis": "reported",
+      "source_scale": 1000000,
+      "status": "verified",
+      "evidence": {
+        "pdf_path": "data/raw/industry_supplements/mastercard_2025_supplement.pdf",
+        "pdf_pages": [
+          8
+        ],
+        "sha256": "50fc883e1cbf7a398dfd7fbe03a853384ffe7da6de0a79a23d515a7c3006048b",
+        "url": "https://s25.q4cdn.com/479285134/files/doc_financials/2025/q4/4Q25-Mastercard-Supplemental-Operational-Performance-Data.pdf",
+        "tokens": [
+          175464
+        ]
+      },
+      "note": "Reported annual count, rounded to millions. Calculated count growth is not normalized for switching/carryover days or Russia. Visa FY2021 uses the FY2023 comparative (164,734m), versus 164,733m in FY2021."
+    },
+    {
+      "company": "visa",
+      "fiscal_year": 2021,
+      "metric_id": "customer_incentives",
+      "value": 8367000000,
+      "unit": "USD",
+      "period_start": "2020-10-01",
+      "period_end": "2021-09-30",
+      "scope": "Visa consolidated client incentives deducted from revenue",
+      "basis": "reported_contra_revenue_positive_magnitude",
+      "source_scale": 1000000,
+      "status": "verified",
+      "evidence": {
+        "pdf_path": "data/raw/issuer_reports/visa/FY2023_annual_report.pdf",
+        "pdf_pages": [
+          53
+        ],
+        "sha256": "bafc042200f2dc31cda1f9012f9351fe86a0c5cf622c7a85d14cc4bf24280dd9",
+        "url": "https://s29.q4cdn.com/385744025/files/doc_downloads/2023/Visa-Inc-Fiscal-2023-Annual-Report.pdf",
+        "tokens": [
+          11475,
+          12792,
+          6530,
+          1675,
+          8367,
+          24105
+        ]
+      },
+      "gross_components_usdm": [
+        11475,
+        12792,
+        6530,
+        1675
+      ],
+      "gross_usdm": 32472,
+      "net_usdm": 24105,
+      "bridge_residual_usdm": 0,
+      "note": "Accrued revenue deduction. This is not cash paid."
+    },
+    {
+      "company": "mastercard",
+      "fiscal_year": 2021,
+      "metric_id": "customer_incentives",
+      "value": 10476000000,
+      "unit": "USD",
+      "period_start": "2021-01-01",
+      "period_end": "2021-12-31",
+      "scope": "Mastercard payment-network revenue deductions; excludes value-added services and solutions",
+      "basis": "derived_assessments_less_network_net_revenue",
+      "source_scale": 1000000,
+      "status": "verified",
+      "evidence": {
+        "pdf_path": "data/raw/issuer_reports/mastercard/FY2023_annual_report.pdf",
+        "pdf_pages": [
+          55,
+          56
+        ],
+        "sha256": "c68407a458406f18c0332f4a8ef0d08b7bd0c8b4a3f9da759d63509287737941",
+        "url": "https://s25.q4cdn.com/479285134/files/doc_financials/2023/AR/2023-annual-report.pdf",
+        "tokens": [
+          8064,
+          4646,
+          9041,
+          668,
+          11943
+        ]
+      },
+      "gross_components_usdm": [
+        8064,
+        4646,
+        9041,
+        668
+      ],
+      "gross_usdm": 22419,
+      "net_usdm": 11943,
+      "narrative_reported_usdm": null,
+      "bridge_residual_usdm": null,
+      "note": "Calculated from published rounded assessment components less payment-network net revenue. FY2023 gives 15,181m; the narrative reports 15,182m (1m rounding difference). FY2021 originally reported 10,961m for the former company-wide presentation; that scope is not spliced into this reclassified network series. These are revenue deductions, not cash paid."
+    },
+    {
+      "company": "visa",
+      "fiscal_year": 2022,
+      "metric_id": "customer_incentives",
+      "value": 10295000000,
+      "unit": "USD",
+      "period_start": "2021-10-01",
+      "period_end": "2022-09-30",
+      "scope": "Visa consolidated client incentives deducted from revenue",
+      "basis": "reported_contra_revenue_positive_magnitude",
+      "source_scale": 1000000,
+      "status": "verified",
+      "evidence": {
+        "pdf_path": "data/raw/issuer_reports/visa/FY2023_annual_report.pdf",
+        "pdf_pages": [
+          53
+        ],
+        "sha256": "bafc042200f2dc31cda1f9012f9351fe86a0c5cf622c7a85d14cc4bf24280dd9",
+        "url": "https://s29.q4cdn.com/385744025/files/doc_downloads/2023/Visa-Inc-Fiscal-2023-Annual-Report.pdf",
+        "tokens": [
+          13361,
+          14438,
+          9815,
+          1991,
+          10295,
+          29310
+        ]
+      },
+      "gross_components_usdm": [
+        13361,
+        14438,
+        9815,
+        1991
+      ],
+      "gross_usdm": 39605,
+      "net_usdm": 29310,
+      "bridge_residual_usdm": 0,
+      "note": "Accrued revenue deduction. This is not cash paid."
+    },
+    {
+      "company": "mastercard",
+      "fiscal_year": 2022,
+      "metric_id": "customer_incentives",
+      "value": 12445000000,
+      "unit": "USD",
+      "period_start": "2022-01-01",
+      "period_end": "2022-12-31",
+      "scope": "Mastercard payment-network revenue deductions; excludes value-added services and solutions",
+      "basis": "derived_assessments_less_network_net_revenue",
+      "source_scale": 1000000,
+      "status": "verified",
+      "evidence": {
+        "pdf_path": "data/raw/issuer_reports/mastercard/FY2023_annual_report.pdf",
+        "pdf_pages": [
+          55,
+          56
+        ],
+        "sha256": "c68407a458406f18c0332f4a8ef0d08b7bd0c8b4a3f9da759d63509287737941",
+        "url": "https://s25.q4cdn.com/479285134/files/doc_financials/2023/AR/2023-annual-report.pdf",
+        "tokens": [
+          8794,
+          6597,
+          10646,
+          766,
+          14358
+        ]
+      },
+      "gross_components_usdm": [
+        8794,
+        6597,
+        10646,
+        766
+      ],
+      "gross_usdm": 26803,
+      "net_usdm": 14358,
+      "narrative_reported_usdm": null,
+      "bridge_residual_usdm": null,
+      "note": "Calculated from published rounded assessment components less payment-network net revenue. FY2023 gives 15,181m; the narrative reports 15,182m (1m rounding difference). FY2021 originally reported 10,961m for the former company-wide presentation; that scope is not spliced into this reclassified network series. These are revenue deductions, not cash paid."
+    },
+    {
+      "company": "visa",
+      "fiscal_year": 2023,
+      "metric_id": "customer_incentives",
+      "value": 12297000000,
+      "unit": "USD",
+      "period_start": "2022-10-01",
+      "period_end": "2023-09-30",
+      "scope": "Visa consolidated client incentives deducted from revenue",
+      "basis": "reported_contra_revenue_positive_magnitude",
+      "source_scale": 1000000,
+      "status": "verified",
+      "evidence": {
+        "pdf_path": "data/raw/issuer_reports/visa/FY2023_annual_report.pdf",
+        "pdf_pages": [
+          53
+        ],
+        "sha256": "bafc042200f2dc31cda1f9012f9351fe86a0c5cf622c7a85d14cc4bf24280dd9",
+        "url": "https://s29.q4cdn.com/385744025/files/doc_downloads/2023/Visa-Inc-Fiscal-2023-Annual-Report.pdf",
+        "tokens": [
+          14826,
+          16007,
+          11638,
+          2479,
+          12297,
+          32653
+        ]
+      },
+      "gross_components_usdm": [
+        14826,
+        16007,
+        11638,
+        2479
+      ],
+      "gross_usdm": 44950,
+      "net_usdm": 32653,
+      "bridge_residual_usdm": 0,
+      "note": "Accrued revenue deduction. This is not cash paid."
+    },
+    {
+      "company": "mastercard",
+      "fiscal_year": 2023,
+      "metric_id": "customer_incentives",
+      "value": 15181000000,
+      "unit": "USD",
+      "period_start": "2023-01-01",
+      "period_end": "2023-12-31",
+      "scope": "Mastercard payment-network revenue deductions; excludes value-added services and solutions",
+      "basis": "derived_assessments_less_network_net_revenue",
+      "source_scale": 1000000,
+      "status": "verified",
+      "evidence": {
+        "pdf_path": "data/raw/issuer_reports/mastercard/FY2023_annual_report.pdf",
+        "pdf_pages": [
+          55,
+          56
+        ],
+        "sha256": "c68407a458406f18c0332f4a8ef0d08b7bd0c8b4a3f9da759d63509287737941",
+        "url": "https://s25.q4cdn.com/479285134/files/doc_financials/2023/AR/2023-annual-report.pdf",
+        "tokens": [
+          9566,
+          8409,
+          12067,
+          963,
+          15824
+        ]
+      },
+      "gross_components_usdm": [
+        9566,
+        8409,
+        12067,
+        963
+      ],
+      "gross_usdm": 31005,
+      "net_usdm": 15824,
+      "narrative_reported_usdm": 15182,
+      "bridge_residual_usdm": -1,
+      "note": "Calculated from published rounded assessment components less payment-network net revenue. FY2023 gives 15,181m; the narrative reports 15,182m (1m rounding difference). FY2021 originally reported 10,961m for the former company-wide presentation; that scope is not spliced into this reclassified network series. These are revenue deductions, not cash paid."
+    },
+    {
+      "company": "visa",
+      "fiscal_year": 2024,
+      "metric_id": "customer_incentives",
+      "value": 13764000000,
+      "unit": "USD",
+      "period_start": "2023-10-01",
+      "period_end": "2024-09-30",
+      "scope": "Visa consolidated client incentives deducted from revenue",
+      "basis": "reported_contra_revenue_positive_magnitude",
+      "source_scale": 1000000,
+      "status": "verified",
+      "evidence": {
+        "pdf_path": "data/raw/issuer_reports/visa/FY2025_annual_report.pdf",
+        "pdf_pages": [
+          61
+        ],
+        "sha256": "6111bd2f744c354164559f2dc292ff940dccde09dd2b7093ed6674b025189ab8",
+        "url": "https://s29.q4cdn.com/385744025/files/doc_downloads/2025/Visa-Fiscal-2025-Annual-Report.pdf",
+        "tokens": [
+          16114,
+          17714,
+          12665,
+          3197,
+          13764,
+          35926
+        ]
+      },
+      "gross_components_usdm": [
+        16114,
+        17714,
+        12665,
+        3197
+      ],
+      "gross_usdm": 49690,
+      "net_usdm": 35926,
+      "bridge_residual_usdm": 0,
+      "note": "Accrued revenue deduction. This is not cash paid."
+    },
+    {
+      "company": "mastercard",
+      "fiscal_year": 2024,
+      "metric_id": "customer_incentives",
+      "value": 17629000000,
+      "unit": "USD",
+      "period_start": "2024-01-01",
+      "period_end": "2024-12-31",
+      "scope": "Mastercard payment-network revenue deductions; excludes value-added services and solutions",
+      "basis": "derived_assessments_less_network_net_revenue",
+      "source_scale": 1000000,
+      "status": "verified",
+      "evidence": {
+        "pdf_path": "data/raw/issuer_reports/mastercard/FY2025_annual_report.pdf",
+        "pdf_pages": [
+          56,
+          57
+        ],
+        "sha256": "8e1ed76ac2486d9f922eb40dd9a975058341e19186c92bfde734b9ac83fbbd88",
+        "url": "https://s25.q4cdn.com/479285134/files/doc_financials/2025/q4/MA-12-31-2025-10-K-as-filed-with-standard-exhibits.pdf",
+        "tokens": [
+          10245,
+          10181,
+          13602,
+          936,
+          17335
+        ]
+      },
+      "gross_components_usdm": [
+        10245,
+        10181,
+        13602,
+        936
+      ],
+      "gross_usdm": 34964,
+      "net_usdm": 17335,
+      "narrative_reported_usdm": null,
+      "bridge_residual_usdm": null,
+      "note": "Calculated from published rounded assessment components less payment-network net revenue. FY2023 gives 15,181m; the narrative reports 15,182m (1m rounding difference). FY2021 originally reported 10,961m for the former company-wide presentation; that scope is not spliced into this reclassified network series. These are revenue deductions, not cash paid."
+    },
+    {
+      "company": "visa",
+      "fiscal_year": 2025,
+      "metric_id": "customer_incentives",
+      "value": 15751000000,
+      "unit": "USD",
+      "period_start": "2024-10-01",
+      "period_end": "2025-09-30",
+      "scope": "Visa consolidated client incentives deducted from revenue",
+      "basis": "reported_contra_revenue_positive_magnitude",
+      "source_scale": 1000000,
+      "status": "verified",
+      "evidence": {
+        "pdf_path": "data/raw/issuer_reports/visa/FY2025_annual_report.pdf",
+        "pdf_pages": [
+          61
+        ],
+        "sha256": "6111bd2f744c354164559f2dc292ff940dccde09dd2b7093ed6674b025189ab8",
+        "url": "https://s29.q4cdn.com/385744025/files/doc_downloads/2025/Visa-Fiscal-2025-Annual-Report.pdf",
+        "tokens": [
+          17539,
+          19993,
+          14166,
+          4053,
+          15751,
+          40000
+        ]
+      },
+      "gross_components_usdm": [
+        17539,
+        19993,
+        14166,
+        4053
+      ],
+      "gross_usdm": 55751,
+      "net_usdm": 40000,
+      "bridge_residual_usdm": 0,
+      "note": "Accrued revenue deduction. This is not cash paid."
+    },
+    {
+      "company": "mastercard",
+      "fiscal_year": 2025,
+      "metric_id": "customer_incentives",
+      "value": 20522000000,
+      "unit": "USD",
+      "period_start": "2025-01-01",
+      "period_end": "2025-12-31",
+      "scope": "Mastercard payment-network revenue deductions; excludes value-added services and solutions",
+      "basis": "derived_assessments_less_network_net_revenue",
+      "source_scale": 1000000,
+      "status": "verified",
+      "evidence": {
+        "pdf_path": "data/raw/issuer_reports/mastercard/FY2025_annual_report.pdf",
+        "pdf_pages": [
+          56,
+          57
+        ],
+        "sha256": "8e1ed76ac2486d9f922eb40dd9a975058341e19186c92bfde734b9ac83fbbd88",
+        "url": "https://s25.q4cdn.com/479285134/files/doc_financials/2025/q4/MA-12-31-2025-10-K-as-filed-with-standard-exhibits.pdf",
+        "tokens": [
+          11029,
+          12021,
+          15930,
+          1018,
+          19476
+        ]
+      },
+      "gross_components_usdm": [
+        11029,
+        12021,
+        15930,
+        1018
+      ],
+      "gross_usdm": 39998,
+      "net_usdm": 19476,
+      "narrative_reported_usdm": 20522,
+      "bridge_residual_usdm": 0,
+      "note": "Calculated from published rounded assessment components less payment-network net revenue. FY2023 gives 15,181m; the narrative reports 15,182m (1m rounding difference). FY2021 originally reported 10,961m for the former company-wide presentation; that scope is not spliced into this reclassified network series. These are revenue deductions, not cash paid."
+    }
+  ]
+}

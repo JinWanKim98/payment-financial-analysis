@@ -29,5 +29,6 @@ docs/*
 !docs/02_filing_inventory.csv
 references/*
 !references/02_source_manifest.json
+!references/industry_evidence.json
 reports/*
 !reports/11_financial_memo.md
