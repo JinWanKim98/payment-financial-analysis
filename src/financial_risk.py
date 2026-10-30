@@ -134,7 +134,7 @@ def build_results():
             ['Independent recurrence assessment','Subsequent legal outcomes and payment timing'],liquidity,['margin_decrease'])
         add('cash_timing',f"Reported OCF/consolidated NI is {s['cash_conversion_display']}; own-year growth patterns and prior cash bridges are retained.",
             'How do incentives, tax timing and operating-balance changes explain cash support, without deducting supplemental cash twice?',
-            'A ratio above1 is not proof of recurring cash or debt-service capacity.',
+            'A ratio above 1 is not proof of recurring cash or debt-service capacity.',
             ['Future timing/working-capital evidence; not a cash forecast'],liquidity,['ocf_growth_lags_income'])
         add('settlement_counterparty','The network has contingent settlement obligations and collateral/mitigation arrangements.',
             'What exposure basis, customer concentration, collateral availability and stressed settlement needs are disclosed on comparable dates?',
@@ -146,7 +146,7 @@ def build_results():
             ['Incident-level financial-impact data','Independent control effectiveness evidence'],cyber,numeric=False)
         add('source_freshness',f"FY2025 period end is {s['days_since_period_end']} days before the analysis date; filing age is {s['days_since_filed']} days.",
             'What later quarterly/annual filings or material events must be reviewed before using these historical signals for a current decision?',
-            'The historical baseline does not establish2026 conditions or whether a stated past maturity was repaid.',
+            'The historical baseline does not establish 2026 conditions or whether a stated past maturity was repaid.',
             ['Numeric integration of later filings','Subsequent events reviewed only when explicitly sourced'],[],numeric=False)
     assert len(registry)==14 and all(x['followup_question'] and x['cannot_conclude'] and x['unresolved_inputs'] for x in registry)
     result={'chapter':8,'status':'computed_investigation_indicators','plan_sha256':sha(ROOT/'docs/08_risk_indicator_plan.json'),
